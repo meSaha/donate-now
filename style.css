@@ -1,0 +1,146 @@
+body,
+html {
+    margin: 0;
+}
+
+.main-banner {
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    padding: 12% 35%;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+.main-banner p {
+    font-size: 14px;
+
+}
+
+.btn {
+    border: none;
+    background-color: #56a95c;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.donate>.donate-box {
+    font-size: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.donate-box:hover {
+    border: 1px solid green;
+    color: red;
+    background-color: #f1f3f4;
+    border-radius: 3px;
+}
+
+.donate-today {
+    padding: 10%;
+
+}
+
+.donate-today h1 {
+    text-align: center;
+}
+
+.donate-today p {
+    text-align: center;
+    color: grey;
+}
+
+.text-box {
+    padding: 5%;
+    text-align: center;
+}
+
+.text-box input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid gray;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.donate-btn-wrap {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn1 {
+    border: none;
+    background-color: #56a95c;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.our-donate-plan h1 {
+    text-align: center;
+}
+
+.our-donate-plan p {
+    text-align: center;
+    color: grey;
+}
+
+.food-box {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    padding: 15%;
+
+}
+
+.shelter-box {
+    width: 250px;
+    height: 250px;
+    background-color: blanchedalmond;
+    padding: 5% 10%;
+
+}
+
+.education-box {
+    width: 250px;
+    height: 250px;
+    background: rgb(203, 163, 107);
+    padding: 1%;
+}
+
+.get-my-updates {
+    text-align: center;
+}
+
+.donate-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.donate-plan {
+
+    justify-content: space-between;
+    flex-direction: row;
+}
